@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* common css end  */
+
+header{
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    padding: 15px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo span{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 50px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.main_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+.main_container img{
+    width: 600px;
+}
+.main_left{
+    padding-right: 50px;
+}
+.main_left p{
+    margin-top: 30px;
+    line-height: 1.4rem;
+}
+.main_left h1{
+    font-size: 50px;
+}
+main{
+    background-color: rgb(233, 233, 233);
+}
+
+.main_section {
+    margin-top: 50px;
+}
+.main_section h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.blog_container{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 280px;
+    gap: 20px;
+    justify-content: center;
+}
+.blog_item_one{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.blog_item_one img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.blog_item_one p{
+    margin-top: 10px;
+}
+
+.about_main{
+    padding: 100px 0;
+}
+.about_container h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 0;
+}
+.about_container .flex_about{
+    display: flex;
+    justify-content: center;
+}
+.about_left {
+    width: 400px;
+    height: 350px;
+    overflow: hidden;
+}
+.about_right {
+    width: 300px;
+    height: 250px;
+    background-color: thistle;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    left: -10%;
+}
+.about_right p{
+    margin-top: 20px;
+}
+.about_container .flex_about .about_left img {
+    width: 100%;
+}
+.main_footer{
+    padding: 20px 0;
+    background-color: rgb(41, 41, 41);
+}
+.footer_container ul{
+    display: flex;
+    justify-content: center;
+}
+.footer_container ul li a{
+    color: whitesmoke;
+    padding: 0 20px;
+}
+
+
+.form_container{
+    margin: 0 auto;
+}
+form{
+    height: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+    background-color: rgb(240, 240, 240);
+}
+form label{
+    display: block;
+}
+input,textarea{
+    width: 100%;
+}
+input{
+    height: 30px;
+}
